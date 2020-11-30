@@ -44,6 +44,7 @@ You can easily use Export using `use Export` statement.
     
 ## Export Pdf
 To Export Pdf simply pass `Model::all()` inside method like below example.
+
     <?php
         use Export;
         class ....{
@@ -53,7 +54,7 @@ To Export Pdf simply pass `Model::all()` inside method like below example.
         }
     ?>
 
-    
+
 ### License
 
 This EXPORT Wrapper for Laravel is open-sourced software licensed.
