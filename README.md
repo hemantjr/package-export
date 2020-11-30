@@ -21,29 +21,36 @@ You can optionally use the facade for shorter code. Add this to your facades:
 
     'Export' => Xpert\Export\Facade\Export::class,
 
-## Dependencies
+## Dependencies ( automatically downlaoded with package )
 
-    composer require maatwebsite/excel
-    composer require barryvdh/laravel-dompdf
-
+    - maatwebsite/excel
+    - barryvdh/laravel-dompdf
 
 ## Using
-
-
-
+To Export Excel or Csv run command `php artisan make:export UserExport(name) --model=User(model name)`.
+above command create file `UserExport.php` inside `App >> Exports >> userExport.php`.
 You can easily use Export using `use Export` statement.
 
     <?php
         use Export;
         class ....{
             public function ...(){
-                return Export::exportExcel(data);
-                return Export::exportCsv($args);
-                return Export::exportPdf($args);
+                // $data = new UserExport.php
+                return Export::exportExcel($data,'file_name');
+                return Export::exportCsv($data,'file_name');
             }
         }
     ?>
     
+To Export Pdf simply pass `Model::all()` inside method like below example.
+    <?php
+        use Export;
+        class ....{
+            public function ...(){
+                return Export::exportPdf(User::all(),'file_name');
+            }
+        }
+    ?>
 ### License
 
 This EXPORT Wrapper for Laravel is open-sourced software licensed.
