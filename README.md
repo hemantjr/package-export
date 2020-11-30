@@ -26,7 +26,7 @@ You can optionally use the facade for shorter code. Add this to your facades:
     - maatwebsite/excel
     - barryvdh/laravel-dompdf
 
-## Using
+## Export Excel or Csv
 To Export Excel or Csv run command `php artisan make:export UserExport(name) --model=User(model name)`.
 above command create file `UserExport.php` inside `App >> Exports >> userExport.php`.
 You can easily use Export using `use Export` statement.
@@ -42,6 +42,7 @@ You can easily use Export using `use Export` statement.
         }
     ?>
     
+## Export Pdf
 To Export Pdf simply pass `Model::all()` inside method like below example.
     <?php
         use Export;
@@ -51,6 +52,8 @@ To Export Pdf simply pass `Model::all()` inside method like below example.
             }
         }
     ?>
+
+    
 ### License
 
 This EXPORT Wrapper for Laravel is open-sourced software licensed.
