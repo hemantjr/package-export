@@ -29,7 +29,9 @@ You can easily use Export using `use Export` statement.
         use Export;
         class ....{
             public function ...(){
-                return Export::exportExcel($args)
+                return Export::exportExcel($args);
+                return Export::exportCsv($args);
+                return Export::exportPdf($args);
             }
         }
     ?>
