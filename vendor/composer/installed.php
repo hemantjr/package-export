@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '64aa2c20d9edc96392502c12866d51ff03e429a4',
+    'reference' => 'e5022b6e8f7cb21ad513997c7da6b1920383f4df',
     'name' => 'xpert/export',
   ),
   'versions' => 
@@ -38,15 +38,6 @@
       array (
       ),
       'reference' => 'db91d81866c69a42dad1d2926f61515a1e3f42c5',
-    ),
-    'elibyy/tcpdf-laravel' => 
-    array (
-      'pretty_version' => '6.0.x-dev',
-      'version' => '6.0.9999999.9999999-dev',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '7fc65c92ba33b353e7449d072df7803d862240d3',
     ),
     'illuminate/contracts' => 
     array (
@@ -256,15 +247,6 @@
         0 => '2.0',
       ),
     ),
-    'tecnickcom/tcpdf' => 
-    array (
-      'pretty_version' => '6.3.5',
-      'version' => '6.3.5.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '19a535eaa7fb1c1cac499109deeb1a7a201b4549',
-    ),
     'xpert/export' => 
     array (
       'pretty_version' => 'dev-main',
@@ -272,7 +254,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '64aa2c20d9edc96392502c12866d51ff03e429a4',
+      'reference' => 'e5022b6e8f7cb21ad513997c7da6b1920383f4df',
     ),
   ),
 );

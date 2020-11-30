@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e72fe8e9853b902222f9e0dfef28e287",
+    "content-hash": "4a90b1c92ed285d3c6b6f9637fa83bca",
     "packages": [
         {
             "name": "barryvdh/laravel-dompdf",
@@ -234,62 +234,6 @@
                 "source": "https://github.com/dompdf/dompdf/tree/master"
             },
             "time": "2020-08-30T22:54:22+00:00"
-        },
-        {
-            "name": "elibyy/tcpdf-laravel",
-            "version": "6.0.x-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/elibyy/tcpdf-laravel.git",
-                "reference": "7fc65c92ba33b353e7449d072df7803d862240d3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/elibyy/tcpdf-laravel/zipball/7fc65c92ba33b353e7449d072df7803d862240d3",
-                "reference": "7fc65c92ba33b353e7449d072df7803d862240d3",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/support": "^6.0",
-                "tecnickcom/tcpdf": "6.3.*"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Elibyy\\TCPDF\\ServiceProvider"
-                    ],
-                    "aliases": {
-                        "PDF": "Elibyy\\TCPDF\\Facades\\TCPDF"
-                    }
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Elibyy\\TCPDF\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "eli y",
-                    "email": "elibyy@gmail.com"
-                }
-            ],
-            "description": "tcpdf support for Laravel 6",
-            "keywords": [
-                "TCPDF",
-                "laravel",
-                "pdf"
-            ],
-            "support": {
-                "issues": "https://github.com/elibyy/tcpdf-laravel/issues",
-                "source": "https://github.com/elibyy/tcpdf-laravel/tree/6.0"
-            },
-            "time": "2019-10-02T16:33:46+00:00"
         },
         {
             "name": "illuminate/contracts",
@@ -1728,72 +1672,6 @@
                 }
             ],
             "time": "2020-11-04T15:35:46+00:00"
-        },
-        {
-            "name": "tecnickcom/tcpdf",
-            "version": "6.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tecnickcom/TCPDF.git",
-                "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/19a535eaa7fb1c1cac499109deeb1a7a201b4549",
-                "reference": "19a535eaa7fb1c1cac499109deeb1a7a201b4549",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "config",
-                    "include",
-                    "tcpdf.php",
-                    "tcpdf_parser.php",
-                    "tcpdf_import.php",
-                    "tcpdf_barcodes_1d.php",
-                    "tcpdf_barcodes_2d.php",
-                    "include/tcpdf_colors.php",
-                    "include/tcpdf_filters.php",
-                    "include/tcpdf_font_data.php",
-                    "include/tcpdf_fonts.php",
-                    "include/tcpdf_images.php",
-                    "include/tcpdf_static.php",
-                    "include/barcodes/datamatrix.php",
-                    "include/barcodes/pdf417.php",
-                    "include/barcodes/qrcode.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL-3.0-only"
-            ],
-            "authors": [
-                {
-                    "name": "Nicola Asuni",
-                    "email": "info@tecnick.com",
-                    "role": "lead"
-                }
-            ],
-            "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
-            "homepage": "http://www.tcpdf.org/",
-            "keywords": [
-                "PDFD32000-2008",
-                "TCPDF",
-                "barcodes",
-                "datamatrix",
-                "pdf",
-                "pdf417",
-                "qrcode"
-            ],
-            "support": {
-                "issues": "https://github.com/tecnickcom/TCPDF/issues",
-                "source": "https://github.com/tecnickcom/TCPDF/tree/6.3.5"
-            },
-            "time": "2020-02-14T14:20:12+00:00"
         }
     ],
     "packages-dev": [],

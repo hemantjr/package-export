@@ -11,9 +11,7 @@
     "minimum-stability": "dev",
     "require": {
         "maatwebsite/excel": "9999999-dev",
-        "barryvdh/laravel-dompdf": "0.8.x-dev",
-        "elibyy/tcpdf-laravel": "6.0.*"
-        
+        "barryvdh/laravel-dompdf": "0.8.x-dev"
     },
     "autoload": {
         "psr-4": {
