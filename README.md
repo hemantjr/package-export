@@ -21,7 +21,15 @@ You can optionally use the facade for shorter code. Add this to your facades:
 
     'Export' => Xpert\Export\Facade\Export::class,
 
+## Dependencies
+
+    composer require maatwebsite/excel
+    composer require barryvdh/laravel-dompdf
+
+
 ## Using
+
+
 
 You can easily use Export using `use Export` statement.
 
@@ -29,7 +37,7 @@ You can easily use Export using `use Export` statement.
         use Export;
         class ....{
             public function ...(){
-                return Export::exportExcel($args);
+                return Export::exportExcel(data);
                 return Export::exportCsv($args);
                 return Export::exportPdf($args);
             }
